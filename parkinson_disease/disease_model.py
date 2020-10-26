@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LogisticRegression
 
 
-data = pd.read_csv("/Users/Hammad/Desktop/Deep_Learning/parkinson_disease/parkinsons.csv")
+data = pd.read_csv("/Users/Hammad/Desktop/projects/parkinson_disease/parkinsons.csv")
 # print(data)
 
 features = data.loc[:,data.columns!='status'].values[:,1:]
